@@ -1,9 +1,7 @@
 // SPDX-License-Identifier: UNLICENSED
-pragma solidity ^0.8.7;
+pragma solidity 0.8.7;
 
-import "../lib/forge-std/src/console.sol";
-
-contract Crowdfunding {
+contract CrowdFunding {
     // enum used to mark the campain after withdraw
     enum CampaignGoal {
         none,
